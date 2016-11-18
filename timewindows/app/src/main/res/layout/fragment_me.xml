@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        fresco:placeholderImage="@drawable/bg"
+        fresco:placeholderImageScaleType="focusCrop"
+        >
+    </com.facebook.drawee.view.SimpleDraweeView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/iv_userimg"
+                android:layout_width="150px"
+                android:layout_height="150px"
+                fresco:placeholderImage="@drawable/faild"
+                fresco:placeholderImageScaleType="focusCrop"
+                />
+
+            <TextView
+                android:id="@+id/tv_username"
+                android:layout_toRightOf="@+id/iv_userimg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="昵称"
+                android:textColor="@color/white"
+                style="@style/me_text_size"
+                android:layout_marginTop="50px"
+                android:layout_marginLeft="20px"
+                />
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/more"
+                android:layout_marginTop="50px"
+                />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/white_30"
+            android:layout_marginTop="30px"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32px"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="密码锁"
+                android:layout_alignParentLeft="true"
+                android:textColor="@color/white"
+                style="@style/me_text_size"
+                android:id="@+id/textView2" />
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/sw_lock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/white_30"
+            android:layout_marginTop="30px"
+            />
+
+        <RelativeLayout
+            android:id="@+id/rl_edit_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32px"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="修改登录密码"
+                android:layout_alignParentLeft="true"
+                android:textColor="@color/white"
+                style="@style/me_text_size" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/more"
+                android:layout_alignParentRight="true"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/white_30"
+            android:layout_marginTop="30px"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32px"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="反馈"
+                android:layout_alignParentLeft="true"
+                android:textColor="@color/white"
+                style="@style/me_text_size" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/more"
+                android:layout_alignParentRight="true"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/white_30"
+            android:layout_marginTop="30px"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32px"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="关于我们"
+                android:layout_alignParentLeft="true"
+                android:textColor="@color/white"
+                style="@style/me_text_size" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/more"
+                android:layout_alignParentRight="true"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

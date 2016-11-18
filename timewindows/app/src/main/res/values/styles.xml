@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowNoTitle">true</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorBar</item>
+        <item name="colorPrimaryDark">@color/colorBar</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- menu的字体颜色（记住不要android:） -->
+        <item name="android:textSize">18sp</item>
+
+        <!-- Inactive track color(30% transparency) switch关闭时的轨迹的颜色  30%这个颜色 -->
+        <item name="android:colorForeground">@color/white</item>
+    </style>
+
+</resources>

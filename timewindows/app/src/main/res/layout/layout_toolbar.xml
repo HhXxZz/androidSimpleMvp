@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:minHeight="?attr/actionBarSize"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_toolbar_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/actionbar_back_icon_normal"
+            android:visibility="gone"
+            />
+        <ImageView
+            android:id="@+id/iv_toolbar_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/menu_icon"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/tv_toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            />
+
+        <ImageView
+            android:id="@+id/iv_toolbar_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/bar_logo"
+            android:visibility="gone"
+            />
+
+        <ImageView
+            android:id="@+id/iv_toolbar_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/calendar_icon"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20px"
+            />
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+</LinearLayout>

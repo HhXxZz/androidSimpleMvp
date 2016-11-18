@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">时间窗</string>
+
+    <!-- 登录 -->
+    <string name="username">手机号</string>
+    <string name="userpwd">密码</string>
+    <string name="submit">登录</string>
+    <string name="code">验证码</string>
+    <string name="tv_repwd">忘记密码</string>
+    <string name="tv_register">创建账号</string>
+    <string name="tv_other_login">第三方登录</string>
+    <string name="tv_copyright">版权归仙歌公司所有</string>
+
+
+    <!-- title -->
+    <string name="register">注册</string>
+    <string name="repassword">重置密码</string>
+    <string name="deal">时间窗平台协议</string>
+    <string name="add">新增</string>
+    <string name="editpwd">修改密码</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>

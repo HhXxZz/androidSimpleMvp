@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //常规字体大小
+    <style name="textSize">
+        <item name="android:textSize">30px</item>
+    </style>
+
+
+    <style name="me_text_size">
+        <item name="android:textSize">35px</item>
+    </style>
+
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 主题颜色 -->
+    <color name="colorPrimary">#fbfbfb</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#ffef6b</color>
+    <color name="colorBar">#000000</color>
+
+
+    //白色
+    <color name="white">#ffffff</color>
+    //50%白色
+    <color name="white_50">#88ffffff</color>
+    <color name="white_30">#22ffffff</color>
+
+    <color name="white_90">#999999</color>
+
+</resources>

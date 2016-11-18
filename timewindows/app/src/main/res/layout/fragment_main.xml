@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        fresco:placeholderImage="@drawable/bg"
+        fresco:placeholderImageScaleType="focusCrop"
+        >
+    </com.facebook.drawee.view.SimpleDraweeView>
+
+    <RelativeLayout
+        android:id="@+id/rl_calendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30px"
+        android:layout_marginBottom="45px"
+        android:textSize="40px"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        />
+
+    <noman.weekcalendar.WeekCalendar
+        android:layout_below="@+id/tv_date"
+        android:id="@+id/weekCalendar"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        fresco:daysBackgroundColor="#00ffffff"
+        fresco:daysTextColor="@color/white"
+        fresco:weekBackgroundColor="#00ffffff"
+        fresco:weekTextColor="@color/white"
+        />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@+id/rl_calendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.singgo.cn.timewindows.widget.CenterViewPager
+            android:id="@+id/cv_viewpager"
+            android:layout_width="680px"
+            android:layout_height="750px"
+            android:layout_centerHorizontal="true"
+            >
+
+        </com.singgo.cn.timewindows.widget.CenterViewPager>
+
+    </RelativeLayout>
+
+</RelativeLayout>
